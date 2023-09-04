@@ -1,4 +1,4 @@
-/*======== google fonts======== */
+/*======== google fonts import ======== */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100&display=swap");
 
 /* ======= global styling ======= */
@@ -57,6 +57,7 @@ p {
 
 /*  ======== header (navbar) ========  */
 .header {
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -69,6 +70,7 @@ p {
   height: 80px;
 }
 .navbar {
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,3 +104,13 @@ p {
   bottom: -4px;
   left: 20px;
 }
+
+/* ======Dashboard (homepage) ====== */
+.dashboard {
+  /* background-image: url("/images/homePage/homePage-image.jpg"); */
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% top 0;
+}
+

@@ -106,11 +106,16 @@ p {
 }
 
 /* ======Dashboard (homepage) ====== */
+.home {
+  display: flex;
+  align-items: center;
+}
 .dashboard {
-  /* background-image: url("/images/homePage/homePage-image.jpg"); */
-  height: 90vh;
-  width: 100%;
-  background-size: cover;
-  background-position: top 25% top 0;
+  
+  flex: 1;
+}
+.background-image {
+  margin-top: 50px;
+  flex: 1;
 }
 

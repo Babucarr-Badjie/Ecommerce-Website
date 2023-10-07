@@ -9,7 +9,6 @@ body {
   box-sizing: border-box;
   width: 100%;
   font-family: "Poppins", sans-serif;
- 
 }
 
 h1 {
@@ -64,9 +63,6 @@ p {
   padding: 20px 50px;
   background-color: #e3e6f3;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  
-  
- 
 }
 .header a img {
   width: 200px;
@@ -113,18 +109,20 @@ p {
 /* ======Dashboard (homepage) ====== */
 #homePage {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 40px;
-  gap: 10px;
-  overflow: hidden;
-  /* max-width: 1200px;
-  text-align: center;
-  align-items: center; */
- 
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
-.homePage-image {
-  margin-left: auto;
+.content {
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+}
+.text {
+  flex: 1; /* Allows the text to take up available space */
+  padding-right: 20px; /* Add spacing between text and image */
   
+}
+
+.homePage-image {
+  flex: 1; /* Allows the image to take up available space */
 }

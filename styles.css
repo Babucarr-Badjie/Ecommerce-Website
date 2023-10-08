@@ -9,50 +9,69 @@ body {
   box-sizing: border-box;
   width: 100%;
   font-family: "Poppins", sans-serif;
+  background-color: #3e3939;
+  color: #e3e6f3;
 }
-
+section {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 60px auto;
+}
 h1 {
   font-size: 48px;
   line-height: 60px;
-  color: #222;
+  /* color: #222; */
 }
 h2 {
   font-size: 44px;
-  line-height: 50px;
-  color: #222;
+  line-height: 60px;
+  /* color: #222; */
 }
 h3 {
   font-size: 36px;
-  line-height: 40px;
-  color: #222;
+  line-height: 60px;
+  /* color: #222; */
 }
 h4 {
   font-size: 24px;
-  line-height: 30px;
-  color: #222;
+  line-height: 60px;
+  /* color: #222; */
 }
 h5 {
   font-size: 20px;
-  line-height: 20px;
-  color: #222;
+  line-height: 60px;
+  /* color: #222; */
 }
 h6 {
   font-size: 16px;
-  line-height: 16px;
-  color: #222;
+  line-height: 60px;
+  /* color: #222; */
   font-weight: 700;
 }
 
 p {
   font-size: 16px;
-  color: #465b52;
   margin: 16px 0 20px 0;
+  text-align: justify;
+  line-height: 24px;
 }
-.section-p1 {
+/* .section-paddings {
   padding: 40px 80px;
-}
-.section-m1 {
+} */
+.section-margins {
   margin: 40px 0;
+}
+
+button {
+  padding: 16px;
+  min-width: 150px;
+  border: 2px solid #8085b4;
+  border-radius: 16px;
+  font-size: large;
+  margin-top: 20px;
+}
+button:hover {
+  cursor: pointer;
 }
 
 /*  ======== header (navbar) ========  */
@@ -63,6 +82,10 @@ p {
   padding: 20px 50px;
   background-color: #e3e6f3;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 .header a img {
   width: 200px;
@@ -72,9 +95,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1200px;
   text-align: center;
-  align-items: center;
 }
 #navbar li {
   list-style: none;
@@ -106,12 +127,11 @@ p {
   left: 20px;
 }
 
-/* ======Dashboard (homepage) ====== */
+/* ======Dashboard (homepage)styles ====== */
 #homePage {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
 }
 .content {
   display: flex;
@@ -119,10 +139,30 @@ p {
 }
 .text {
   flex: 1; /* Allows the text to take up available space */
-  padding-right: 20px; /* Add spacing between text and image */
-  
+  padding-right: 100px; /* Add spacing between text and image */
+}
+
+.text p {
+  color: #9bb3a8;
 }
 
 .homePage-image {
   flex: 1; /* Allows the image to take up available space */
+  border-radius: 40px;
 }
+
+/* ======About section styles ====== */
+#about-us .service-box {
+  width: 120px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0);
+  border: 1px solid #e3e6f3;
+  border-radius: 6px;
+  margin: 16px 0;
+}
+#about-us .service-box:hover {
+  cursor: pointer;
+  box-shadow: 8px 8px 64px rgba(70, 60, 225, 0.1);
+}
+

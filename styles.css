@@ -13,7 +13,7 @@ body {
   color: #e3e6f3;
 }
 section {
-  padding: 20px;
+  padding: 60px;
   max-width: 1400px;
   margin: 60px auto;
 }
@@ -24,27 +24,27 @@ h1 {
 }
 h2 {
   font-size: 44px;
-  line-height: 60px;
+  /* line-height: 60px; */
   /* color: #222; */
 }
 h3 {
   font-size: 36px;
-  line-height: 60px;
+  /* line-height: 60px; */
   /* color: #222; */
 }
 h4 {
   font-size: 24px;
-  line-height: 60px;
+  /* line-height: 60px; */
   /* color: #222; */
 }
 h5 {
   font-size: 20px;
-  line-height: 60px;
+  /* line-height: 60px; */
   /* color: #222; */
 }
 h6 {
   font-size: 16px;
-  line-height: 60px;
+  /* line-height: 60px; */
   /* color: #222; */
   font-weight: 700;
 }
@@ -53,14 +53,14 @@ p {
   font-size: 16px;
   margin: 16px 0 20px 0;
   text-align: justify;
-  line-height: 24px;
+  line-height: 28px;
 }
 /* .section-paddings {
   padding: 40px 80px;
 } */
-.section-margins {
+/* .section-margins {
   margin: 40px 0;
-}
+} */
 
 button {
   padding: 16px;
@@ -76,6 +76,10 @@ button:hover {
   color: #e3e6f3;
   transition: ease-in-out;
   transition-delay: 0.1s;
+}
+
+section h1 {
+  text-align: center;
 }
 
 /*  ======== header (navbar) ========  */
@@ -168,10 +172,8 @@ button:hover {
 }
 #about-us .service-box:hover {
   cursor: pointer;
+  border: 1px solid hsl(0, 100%, 50%);
   box-shadow: 8px 8px 64px rgba(70, 60, 225, 0.1);
-}
-#about-us h1 {
-  text-align: center;
 }
 
 .services {
@@ -185,4 +187,50 @@ button:hover {
 }
 .service-box img {
   height: 100px;
+}
+.service-box img:hover {
+  transform: scale(1.2);
+  transition: tranform 0.5s ease-in-out;
+}
+
+/* === product section ==== */
+#products .product {
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #e3e6f3;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 15px 0;
+  position: relative;
+}
+
+#products .product img {
+  width: 100%;
+}
+#products .product .description {
+  text-align: start;
+  padding: 10px 0;
+}
+
+#products .product .description span {
+  font-size: 1.2em;
+  color: #8691bc;
+}
+
+#products .product .description i {
+  color: darkorange;
+}
+.description p {
+  color: #0ee162;
+  font-size: 20px;
+}
+#products .product .cart {
+  color: #e3e6f3;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 24px;
+  right: 10px;
 }

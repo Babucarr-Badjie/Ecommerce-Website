@@ -255,16 +255,35 @@ i h6 {
   color: #fff;
   font-size: 1.2em;
 }
-
+#banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 #banner .banner-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
   background-image: url(./images/banner/banner1.jpg);
   min-width: 580px;
-  height: 50vh;
+  height: 40vh;
   background-size: cover;
   background-position: center;
+  color: #1a1a1a;
+  padding: 30px;
+}
+#banner .banner-box2 {
+  background-image: url(./images/banner/banner2.jpg);
+}
+.banner-box h4,
+h2 {
+  line-height: 4px;
+}
+#banner span {
+  font-size: 18px;
+}
+#banner .banner-box:hover button {
+  background-color: #084922;
+  color: #fff;
 }

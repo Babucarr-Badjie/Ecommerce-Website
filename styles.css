@@ -267,7 +267,7 @@ i h6 {
   align-items: flex-start;
   background-image: url(./images/banner/banner1.jpg);
   min-width: 580px;
-  height: 40vh;
+  height: 35vh;
   background-size: cover;
   background-position: center;
   color: #1a1a1a;
@@ -286,4 +286,37 @@ h2 {
 #banner .banner-box:hover button {
   background-color: #084922;
   color: #fff;
+}
+#small-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: -20px;
+}
+#small-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/banner/banner3.webp);
+  min-width: 30%;
+  height: 25vh;
+  background-size: cover;
+  background-position: center;
+  color: #1a1a1a;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#small-banner .banner-box4 {
+  background-image: url(./images/banner/banner4.jpg);
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+#small-banner .banner-box5 {
+  background-image: url(./images/banner/banner5.jpg);
+  color: #1a1a1a;
+  justify-content: center;
+  align-items: center;
 }

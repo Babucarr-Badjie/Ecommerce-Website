@@ -145,8 +145,8 @@ section h1 {
   flex-direction: row; /* Horizontal layout */
 }
 .text {
-  flex: 1; /* Allows the text to take up available space */
-  padding-right: 100px; /* Add spacing between text and image */
+  flex: 1;
+  /* padding-right: 100px;  */
 }
 .text h2 {
   line-height: 60px;
@@ -198,7 +198,7 @@ section h1 {
 
 /* === product section ==== */
 #products .product {
-  width: 23%;
+  width: 20%;
   min-width: 250px;
   padding: 10px 12px 0 12px;
   border: 1px solid #e3e6f3;
@@ -206,6 +206,9 @@ section h1 {
   cursor: pointer;
   margin: 15px 0;
   position: relative;
+}
+.description-text p {
+  text-align: center;
 }
 .product-container {
   display: flex;
@@ -224,9 +227,9 @@ section h1 {
   padding: 10px 0;
 }
 
-/* #products .product .description span {
-  font-size: 1.2em;
-  color: #8691bc;
+/* #products p {
+  text-align: center;
+  margin-top: -30px;
 } */
 
 #products .product .description .rating i {
@@ -242,7 +245,7 @@ section h1 {
   height: 40px;
   font-size: 20px;
   position: absolute;
-  bottom: 14px;
+  bottom: 8px;
   right: 10px;
 }
 .description span,
@@ -441,7 +444,7 @@ footer a:hover {
   }
 
   #mobile-query i {
-    font-size: 24px;
+    font-size: 20px;
     padding-left: 20px;
     color: #1a1a1a;
   }
@@ -457,8 +460,8 @@ footer a:hover {
     display: none;
   }
   .header a img {
-    width: 120px;
-    height: 50px;
+    width: 140px;
+    height: auto;
   }
   #homePage {
     text-align: center;
@@ -468,8 +471,6 @@ footer a:hover {
     text-align: center;
   }
   .text {
-    justify-content: center;
-    align-items: center;
     text-align: center;
   }
   .text h2 {
@@ -490,11 +491,66 @@ footer a:hover {
     font-size: 20px;
   }
   section {
-    padding: 30px;
-
+    padding: 10px 30px;
     margin: 0px auto;
   }
   section h1 {
     font-size: 40px;
+  }
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+
+  #about-us .service-box {
+    margin: 8px auto;
+  }
+  .product-container {
+    justify-content: center;
+  }
+  #products .product {
+    margin: 15px 4px;
+  }
+
+  #banner .banner-box {
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 10px;
+  }
+  #small-banner .banner-box {
+    width: 28%;
+    padding: 0 6px;
+    margin-bottom: 0px;
+  }
+  #small-banner h2 {
+    font-size: 18px;
+  }
+  #small-banner h4 {
+    font-size: 12px;
+  }
+  #news-letter {
+    text-align: center;
+  }
+  #news-letter .form {
+    width: 70%;
+  }
+  #news-letter button {
+    width: 100%;
+    line-height: 3.125rem;
+    padding: 0px 1.125rem;
+    font-size: 18px;
+  }
+  .footer-container h4 {
+    font-size: 18px;
+  }
+  .footer-container h4 {
+    font-size: 18px;
+  }
+  .footer-container p {
+    font-size: 14px;
+  }
+  .footer-container a {
+    font-size: 14px;
   }
 }

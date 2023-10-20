@@ -218,7 +218,8 @@ section h1 {
 
 #products .product img {
   width: 100%;
-  height: 300px;
+  /* height: 300px; */
+  /* height: 40vh; */
   background-color: #5e5a5a;
   border-radius: 20px;
 }
@@ -226,11 +227,6 @@ section h1 {
   text-align: start;
   padding: 10px 0;
 }
-
-/* #products p {
-  text-align: center;
-  margin-top: -30px;
-} */
 
 #products .product .description .rating i {
   color: darkorange;
@@ -408,7 +404,7 @@ footer a:hover {
   color: #088178;
 }
 
-/* ===== Media Query ===== */
+/* ===== Media Query for Tablets===== */
 @media only screen and (max-width: 780px) {
   .header {
     padding: 10px 20px;
@@ -480,11 +476,11 @@ footer a:hover {
     display: none;
   }
   button {
-    padding: 8px;
-    min-width: 80px;
+    padding: 12px;
+    min-width: 90px;
     border: 1px solid #8085b4;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 10px;
   }
   #homePage h4 {
@@ -544,13 +540,42 @@ footer a:hover {
   .footer-container h4 {
     font-size: 18px;
   }
-  .footer-container h4 {
-    font-size: 18px;
-  }
+
   .footer-container p {
     font-size: 14px;
   }
   .footer-container a {
     font-size: 14px;
+  }
+}
+/* ===== Media Query for smaller phones===== */
+@media only screen and (max-width: 490px) {
+  section h1 {
+    font-size: 30px;
+  }
+  .text h2 {
+    font-size: 30px;
+  }
+  #homePage h4 {
+    font-size: 14px;
+  }
+  .services {
+    grid-template-columns: 1fr 1fr;
+  }
+  #products .product img {
+    /* height: 200px; */
+    height: 35vh;
+  }
+  #banner {
+    max-width: 100%;
+  }
+  #banner .banner-box h2 {
+    font-size: 18px;
+  }
+  #banner .banner-box h2 {
+    font-size: 18px;
+  }
+  #banner .banner-box span {
+    font-size: 12px;
   }
 }

@@ -8,7 +8,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   width: 100%;
-  font-family: "Poppins", sans-serif;
+  font-family: "Spartan", sans-serif;
   background-color: #3e3939;
   color: #e3e6f3;
 }
@@ -371,7 +371,7 @@ footer .footer-container {
   margin-bottom: 20px;
 }
 footer a {
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
   text-decoration: none;
   margin-bottom: 14px;
@@ -566,16 +566,23 @@ footer a:hover {
     /* height: 200px; */
     height: 35vh;
   }
-  #banner {
-    max-width: 100%;
+
+  #banner .banner-box {
+    min-width: 100px;
   }
   #banner .banner-box h2 {
     font-size: 18px;
   }
-  #banner .banner-box h2 {
-    font-size: 18px;
+  #banner .banner-box h4 {
+    font-size: 20px;
+    color: #bb7e7e;
   }
   #banner .banner-box span {
-    font-size: 12px;
+    font-size: 14px;
+  }
+  #small-banner .banner-box {
+    width: 100%;
+    padding: 10px 6px;
+    margin: 10px 0;
   }
 }

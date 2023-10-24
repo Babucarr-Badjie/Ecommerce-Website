@@ -160,6 +160,7 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  background-color: #f0fdf4;
 }
 #featured .featured-box {
   width: 180px;
@@ -184,6 +185,83 @@ button:hover {
   border-radius: 4px;
   color: #088178;
   background-color: #fddde4;
+}
+#featured .featured-box:nth-child(2) h6 {
+  background-color: #cdebbc;
+}
+#featured .featured-box:nth-child(3) h6 {
+  background-color: #d1e8f2;
+}
+#featured .featured-box:nth-child(4) h6 {
+  background-color: #cdd4f8;
+}
+#featured .featured-box:nth-child(5) h6 {
+  background-color: #f6dbf6;
+}
+#featured .featured-box:nth-child(6) h6 {
+  background-color: #fff2e5;
+}
+
+/* ==== featured products styles ==== */
+#featured-products {
+  text-align: center;
+}
+#featured-products .product-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+#featured-products .product {
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  margin: 14px 0;
+  border: 1px solid #cce7d0;
+  border-radius: 24px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  cursor: pointer;
+  transition: 0.3s ease;
+  position: relative;
+}
+#featured-products .product:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+#featured-products .product img {
+  width: 100%;
+  border-radius: 20px;
+}
+#featured-products .product .description {
+  text-align: start;
+  padding: 10px 0;
+}
+#featured-products .product .description h5 {
+  padding-top: 6px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+#featured-products .product .description i {
+  font-size: 12px;
+  color: #b97726;
+}
+#featured-products .product .description h4 {
+  padding-top: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #0e9042;
+}
+#featured-products .product .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #cdd4f8;
+  color: #0e9042;
+  border: 1px solid #b6c5be;
+  position: absolute;
+  bottom: 14px;
+  right: 10px;
 }
 
 /* ===footer section */

@@ -60,6 +60,16 @@ button.normal {
   cursor: pointer;
   transition: 0.3s;
 }
+button.banner-button {
+  padding: 10px 16px;
+  color: #000;
+  border: 1px solid #000;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
 /*  ======== header (navbar) ========  */
 .header {
@@ -291,6 +301,45 @@ button.normal {
   background-color: #088178;
   color: #e3e6f3;
   transition-delay: 0.1s;
+}
+
+/* === small banner styles ==== */
+#small-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#small-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  background-image: url("./images/banner/maga-deal-banner.jpeg");
+  min-width: 580px;
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+}
+#small-banner h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+#small-banner h2 {
+  font-size: 34px;
+  font-weight: 800;
+}
+#small-banner span {
+  font-style: italic;
+  font-size: 26px;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+#small-banner .banner-box:hover button{
+  background-color: #088178;
+  border: 1px solid #088178;
+  color: #fff;
+
 }
 
 /* ===footer section */

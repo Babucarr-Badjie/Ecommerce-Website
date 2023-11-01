@@ -258,6 +258,8 @@ button.normal {
   bottom: 14px;
   right: 10px;
 }
+
+/* ===== banner styles ===== */
 #banner {
   display: flex;
   flex-direction: column;

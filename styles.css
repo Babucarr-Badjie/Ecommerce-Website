@@ -303,13 +303,13 @@ button.banner-button {
   transition-delay: 0.1s;
 }
 
-/* === small banner styles ==== */
-#small-banner {
+/* === medium banner styles ==== */
+#medium-banner {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-#small-banner .banner-box {
+#medium-banner .banner-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -321,27 +321,60 @@ button.banner-button {
   background-size: cover;
   background-position: center;
 }
-#small-banner h4 {
+#medium-banner h4 {
   font-size: 24px;
   font-weight: 400;
 }
-#small-banner h2 {
+#medium-banner h2 {
   font-size: 34px;
   font-weight: 800;
 }
-#small-banner span {
+#medium-banner span {
   font-style: italic;
   font-size: 26px;
   font-weight: 500;
   padding-bottom: 16px;
 }
-#small-banner .banner-box:hover button{
+#medium-banner .banner-box:hover button {
   background-color: #088178;
   border: 1px solid #088178;
   color: #fff;
-
+}
+#medium-banner .banner-box2 {
+  background-image: url("./images/banner/banner.jpeg");
 }
 
+/* ===== small banner styles ====== */
+
+#small-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+#small-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  background-image: url("./images/banner/seasonal-sales.jpeg");
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#small-banner h2 {
+  font-size: 24px;
+  font-weight: 900;
+}
+#small-banner h3 {
+  font-size: 16px;
+  font-weight: 800;
+  color: #ec544e;
+}
 /* ===footer section */
 
 footer {

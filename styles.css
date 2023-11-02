@@ -285,14 +285,12 @@ button.banner-button {
 #banner h4 {
   color: #030737;
   font-size: 30px;
-  /* background-color: #fff; */
   border: none;
 }
 #banner h2 {
   color: #030737;
   font-size: 45px;
   padding: 12px 0;
-  /* background-color: #088178; */
 }
 #banner h2 span {
   color: #ff0000;
@@ -346,7 +344,7 @@ button.banner-button {
 
 /* ===== small banner styles ====== */
 
-#small-banner{
+#small-banner {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -375,6 +373,22 @@ button.banner-button {
   font-weight: 800;
   color: #ec544e;
 }
+#small-banner .banner-box2 {
+  background-image: url("./images/banner/small-banner2.jpg");
+}
+#small-banner .banner-box3 {
+  background-image: url("./images/banner/accessories-banner.jpeg");
+}
+#small-banner .banner-box2 h2 {
+  color: #fff;
+}
+#small-banner .banner-box2 h3 {
+  color: #fff;
+}
+#small-banner .banner-box3 h2 {
+  color: #fff;
+}
+
 /* ===footer section */
 
 footer {

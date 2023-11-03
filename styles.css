@@ -50,7 +50,7 @@ p {
 }
 
 button.normal {
-  padding: 16px 30px;
+  padding: 10px 30px;
   color: #000;
   border: none;
   outline: none;
@@ -389,6 +389,55 @@ button.banner-button {
   color: #fff;
 }
 
+/* ===== Newsletter section style ===== */
+#news-letter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("images/banner/newsletters.jpg");
+  /* background-repeat: no-repeat; */
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+#news-letter .newsletter-form {
+  display: flex;
+  width: 40%;
+}
+#news-letter h4 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #fff;
+}
+#news-letter p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+#news-letter p span {
+  color: orange;
+}
+#news-letter input {
+  height: 3.125rem;
+  width: 100%;
+  padding: 0 1.25em;
+  font-size: 16px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#news-letter button {
+  background-color: #088178;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 /* ===footer section */
 
 footer {
@@ -413,6 +462,7 @@ footer .socials {
 footer .socials i {
   margin-right: 20px;
   font-size: larger;
+  margin-top: 20px;
 }
 
 footer .apps .app-image img {

@@ -494,7 +494,7 @@ footer a:hover {
 }
 
 /* ====(media query) medium screen (tablets) ======= */
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 980px) {
   .section-padding {
     padding: 48px;
   }
@@ -592,5 +592,73 @@ footer a:hover {
   }
 }
 
-/* ==== media query (medium screen (tablets))======= */
-
+/* ==== media query (small device) */
+@media only screen and (max-width: 477px) {
+  .section-padding {
+    padding: 20px;
+  }
+  .header a img {
+    width: 120px;
+    height: 40px;
+  }
+  #mobile-device i {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .header {
+    padding: 20px 30px;
+  }
+  #profile {
+    padding: 20px;
+    background-position: 15%;
+    /* margin-top: 50px; */
+  }
+  h2 {
+    font-size: 34px;
+  }
+  h1 {
+    font-size: 44px;
+  }
+  #profile button {
+    padding: 10px 50px 10px 45px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 20px;
+  }
+  #featured .featured-box {
+    width: 155px;
+    margin: 0 0 14px 0;
+  }
+  #featured {
+    justify-content: space-between;
+  }
+  #featured-products .product {
+    width: 100%;
+  }
+  #banner {
+    height: 24vh;
+  }
+  #banner h4 {
+    font-size: 20px;
+  }
+  #banner h2 {
+    font-size: 20px;
+  }
+  #medium-banner .banner-box {
+    height: 40vh;
+  }
+  #small-banner {
+    padding: 0 20px;
+  }
+  #small-banner .banner-box {
+    width: 100%;
+  }
+  #small-banner h2 {
+    font-size: 24px;
+    font-weight: 800;
+  }
+  #small-banner h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+}

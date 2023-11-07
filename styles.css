@@ -13,6 +13,11 @@
 }
 body {
   width: 100%;
+  /* max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  align-items: center; */
+  
 }
 
 .section-padding {
@@ -598,8 +603,8 @@ footer a:hover {
     padding: 20px;
   }
   .header a img {
-    width: 120px;
-    height: 40px;
+    width: 140px;
+    height: 60px;
   }
   #mobile-device i {
     font-size: 20px;
@@ -636,7 +641,7 @@ footer a:hover {
     width: 100%;
   }
   #banner {
-    height: 24vh;
+    height: 26vh;
   }
   #banner h4 {
     font-size: 20px;
@@ -644,8 +649,16 @@ footer a:hover {
   #banner h2 {
     font-size: 20px;
   }
+  button.normal {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
   #medium-banner .banner-box {
     height: 40vh;
+  }
+  #medium-banner h2 {
+    font-size: 24px;
+    font-weight: 600;
   }
   #small-banner {
     padding: 0 20px;
@@ -660,5 +673,11 @@ footer a:hover {
   #small-banner h3 {
     font-size: 22px;
     font-weight: 500;
-}
+  }
+  h4 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+  }
 }

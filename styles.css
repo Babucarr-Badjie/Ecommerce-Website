@@ -534,6 +534,22 @@ footer a:hover {
   font-size: 16px;
   font-weight: 600;
 }
+
+/* ====== single product styles ====== */
+
+#product-details .single-product-image {
+  width: 40%;
+  margin-right: 50px;
+}
+.small-image-group {
+  display: flex;
+  justify-content: space-between;
+}
+.small-single-image {
+  flex-basis: 24%;
+  cursor: pointer;
+  border: 1px solid #d1e8f2;
+}
 /* ====(media query) medium screen (tablets) ======= */
 @media only screen and (max-width: 980px) {
   .section-padding {

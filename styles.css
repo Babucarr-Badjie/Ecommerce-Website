@@ -568,20 +568,30 @@ footer a:hover {
 #product-details .single-product-details select {
   display: block;
   padding: 6px 10px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 #product-details .single-product-details input {
   width: 60px;
-  height: 48px;
-  padding-left: 10px;
+  height: 42px;
+  /* padding-left: 10px; */
   font-size: 16px;
   margin-right: 10px;
-  /* text-align: center; */
+  text-align: center;
 }
 #product-details .single-product-details button {
   background-color: #088178;
   color: #fff;
   border-radius: 2px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+#product-details .single-product-details button:hover {
+  background-color: #b5b9b9;
+  color: #000;
+}
+#product-details .single-product-details span {
+  line-height: 30px;
 }
 
 /* ====(media query) medium screen (tablets) ======= */

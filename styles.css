@@ -577,15 +577,12 @@ footer a:hover {
   font-size: 16px;
   margin-right: 10px;
   /* text-align: center; */
- 
 }
-#product-details .single-product-details button{
+#product-details .single-product-details button {
   background-color: #088178;
   color: #fff;
   border-radius: 2px;
 }
-
-
 
 /* ====(media query) medium screen (tablets) ======= */
 @media only screen and (max-width: 980px) {
